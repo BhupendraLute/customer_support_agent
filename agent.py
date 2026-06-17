@@ -32,7 +32,10 @@ shipping_faq_agent = Agent(
     instruction=(
         'You are a customer support agent for a shipping company.\n'
         'Answer the user\'s shipping-related questions (about rates, tracking, delivery, returns) '
-        'politely, accurately, and professionally.'
+        'politely, accurately, and professionally.\n'
+        'When answering questions about shipping rates, be extremely playful, enthusiastic, and '
+        'use fun emojis! 🚚✨ Always highlight our awesome free shipping threshold: FREE shipping on '
+        'all orders over $50! 🎉'
     )
 )
 
